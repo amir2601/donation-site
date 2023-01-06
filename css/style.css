@@ -11,7 +11,8 @@
     border-radius: 5px;
 }
 header {
-    background-image: url('../images/donation13.jpg');
+    /* background-image: url('../images/donation13.jpg'); */
+    background-image: linear-gradient(rgba(34, 34, 34, 0),rgb(0, 0, 0)), url(../images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -64,7 +65,7 @@ header {
     background-color: FAFAFA;
     font-size: 25px;
     font-weight: 700;
-    /* box-shadow: 5px 5px 15px; */
+    box-shadow: 10px 10px 15px;
 }
 .other-description {
     margin-bottom: 30px;
@@ -85,18 +86,21 @@ header {
     background-color: #edf5f6;
     text-align: left;
     border-radius: 5px;
+    box-shadow: 10px 10px 15px;
 }
 .plan-box-2 {
     padding: 35px 15px;
     background-color: #FFEEEE;
     text-align: left;
     border-radius: 5px;
+    box-shadow: 10px 10px 15px;
 }
 .plan-box-3 {
     padding: 35px 15px;
     background-color: #fff4d6;
     text-align: left;
     border-radius: 5px;
+    box-shadow: 10px 10px 15px;
 }
 .box-title {
     margin: 20px 0;
@@ -154,13 +158,19 @@ header {
 footer {
     text-align: center;
     background-color: black;
-    height: 200px;
+    height: 250px;
     
 }
 footer p {
     color: white;
+    padding-bottom: 30px;
 }
 footer h1 {
     color: red;
     padding: 50px;
+}
+.footer-text {
+    margin-top: 20px;
+    font-size: 12px;
+    color: gray;
 }
