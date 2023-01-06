@@ -15,7 +15,6 @@ header {
     background-image: linear-gradient(rgba(34, 34, 34, 0),rgb(0, 0, 0)), url(../images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
 }
 .primary-btn {
     background: #ff5959;
